@@ -5,22 +5,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Raimon - Mis proyectos como desarrollador Full Stack</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Soy <a href="https://github.com/piki1489">Raimon</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Soy un desarrollador full stack con amplia experiencia en <code> HTML, CSS, JavaScript, Angular, MySQL, React (Next.js), Node.js y MongoDB</code> <br></br> Me apasiona la tecnología y siempre estoy abierto a nuevos conocimientos.
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
+            <h3>E-RAYO &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
