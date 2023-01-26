@@ -7,53 +7,65 @@ export default function Home() {
       <Head>
         <title>Raimon - Mis proyectos como desarrollador Full Stack</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'></link>
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Soy <a href="https://github.com/piki1489">Raimon</a>
+          Soy <a href="https://github.com/piki1489">Raimon Hernández </a>
         </h1>
+
+        <div className={styles.photo}></div>
 
         <p className={styles.description}>
           Soy un desarrollador full stack con amplia experiencia en <code> HTML, CSS, JavaScript, Angular, MySQL, React (Next.js), Node.js y MongoDB</code> <br></br> Me apasiona la tecnología y siempre estoy abierto a nuevos conocimientos.
         </p>
 
+        <div className={styles.projects}><h2>Mis proyectos</h2></div>
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>E-RAYO &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Aplicación para gestionar el stock de almacenes de forma digital.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+          <a href="https://github.com/piki1489/Practica_Blog" className={styles.card}>
+            <h3>Biblioteca musical &rarr;</h3>
+            <p>Front-end para gestionar tu catálogo de música.
             </p>
           </a>
+
+          <a
+            href="https://github.com/piki1489/hamburgueseria"
+            className={styles.card}
+          >
+            <h3>Burguer Elx &rarr;</h3>
+            <p>Front-end minimalista para un restaurante.
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/piki1489/trabajo_javascript.git"
+            className={styles.card}
+          >
+            <h3>To Do List&rarr;</h3>
+            <p>
+              Aplicación para gestionar tareas. (HTML, CSS3 y JavaScript).
+            </p>
+          </a>
+          <div className='contact'>
+            <div><i class="fa-brands fa-linkedin"></i></div>
+            <div> <i class="fa-brands fa-github"></i></div>
+            <div><i class="fa-solid fa-file"></i></div>
+            <div><i class="fa-brands fa-whatsapp"></i></div>
+          </div>
         </div>
+
       </main>
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+
         >
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />

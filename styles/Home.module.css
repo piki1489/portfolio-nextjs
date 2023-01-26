@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -8,7 +10,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #a45529;
   text-decoration: none;
 }
 
@@ -66,8 +68,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #a45529;
+  border-color: #a45529;
 }
 
 .card h3 {
@@ -83,6 +85,25 @@
 
 .logo {
   height: 1em;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(/raimon.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.projects {
+  font-size: 35px;
+  padding-top: 25px;
+}
+
+.contact {
+  background-color: black;
 }
 
 @media (max-width: 600px) {
